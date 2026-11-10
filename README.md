@@ -38,11 +38,11 @@ Wynik:
     Score = 92
 
 output1.txt:
-
+```
 MVLSPADKTNIKTAWEKIGSHGGEYGAEAVERMFLGFPTTKTYFPHFDFTHGSEQIKAHGKKVSEALTKAVGHLDDLPGALSTLSDLHAHKLRVDPVNFKLLSHCLLVTLANHHPSEFTPAVHASLDKFLANVSTVLTSKYR
 |||||||||| | || | | | ||||||| ||||| ||||||||||||  ||| | | |||||  ||| || | || | ||| |||||||||||||||||||||||||||| | | ||||||||||||||| ||||||||||
 MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
-
+```
 Przykład uruchomienia 2:
 
 Wybrane sekwencje: Hemoglobina α mamuta (Mammuthus primigenius - D3U1H8) i cytochrom b aksolotla (Ambystoma mexicanum - Q70ED6)
@@ -65,16 +65,17 @@ SLFIIIIPMIGILENKMMKW
 
 Wynik:
 
-  PS C:\Users\gosia\Desktop\BioinfStruktularna\Laby\Algorytm-Smitha-Watermana> py local_seq_align.py input2.fasta
-    Liczba dopasowań: 9
-    Score = 3
-
     PS C:\Users\gosia\Desktop\BioinfStruktularna\Laby\Algorytm-Smitha-Watermana> py local_seq_align.py --fasta input2.fasta
+    Liczba dopasowań: 9
+    Score = 3  
+
+    PS C:\Users\gosia\Desktop\BioinfStruktularna\Laby\Algorytm-Smitha-Watermana> py local_seq_align.py input2.fasta
     Liczba dopasowań: 9
     Score = 3  
 
 output2.txt:
 
+```
 KAT
 |||
 KAT
@@ -110,3 +111,4 @@ TSK
 TSKYR
 ||| |
 TSKQR
+```
