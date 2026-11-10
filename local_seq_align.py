@@ -106,8 +106,32 @@ def smithWaterman(seq1, seq2):
 
     return alignments, maxScore
 
+def saveResults(alignments, score):
+    with open("output.txt", 'w') as file:
+        if len(alignments) == 0:
+            file.write("Brak dopasowań\n")
+            return
+
+        for result1, result2 in alignments:
+            file.write(result1 + "\n")
+
+            sign = ""
+            for i in range(len(result1)):
+                if result1[i] == result2[i]:
+                    sign += "*"
+                else:
+                    sign += " "
+            file.write(sign + "\n")
+
+            file.write(result2 + "\n\n")
+            
+
 fastaFile = readArgs()
 seq1, seq2 = readSeq(fastaFile)
 
 alignments, score = smithWaterman(seq1, seq2)
+saveResults(alignments, score)
+
+print(f"Liczba dopasowań: {len(alignments)}")
+print(f"Score = {score}")
 
