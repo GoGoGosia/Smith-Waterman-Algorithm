@@ -40,9 +40,8 @@ Wynik:
 output1.txt:
 
 MVLSPADKTNIKTAWEKIGSHGGEYGAEAVERMFLGFPTTKTYFPHFDFTHGSEQIKAHGKKVSEALTKAVGHLDDLPGALSTLSDLHAHKLRVDPVNFKLLSHCLLVTLANHHPSEFTPAVHASLDKFLANVSTVLTSKYR
-********** * ** * * * ******* ***** ************  *** * * *****  *** ** * ** * *** **************************** * * *************** **********
+|||||||||| | || | | | ||||||| ||||| ||||||||||||  ||| | | |||||  ||| || | || | ||| |||||||||||||||||||||||||||| | | ||||||||||||||| ||||||||||
 MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
-
 
 Przykład uruchomienia 2:
 
@@ -77,37 +76,37 @@ Wynik:
 output2.txt:
 
 KAT
-***
+|||
 KAT
 
 LTQ
-***
+|||
 LTQ
 
 DLP
-***
+|||
 DLP
 
 LSA
-***
+|||
 LSA
 
 DPVNF
-** **
+|| ||
 DPENF
 
 LLS
-***
+|||
 LLS
 
 FLS
-***
+|||
 FLS
 
 TSK
-***
+|||
 TSK
 
 TSKYR
-*** *
+||| |
 TSKQR
