@@ -118,7 +118,7 @@ def saveResults(alignments, score):
             sign = ""
             for i in range(len(result1)):
                 if result1[i] == result2[i]:
-                    sign += "*"
+                    sign += "|"
                 else:
                     sign += " "
             file.write(sign + "\n")
